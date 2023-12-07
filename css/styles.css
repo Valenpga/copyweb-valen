@@ -1,7 +1,11 @@
+
 #header{
-    background-color: white;
     display:flex;
     flex-direction: column;
+    background-color: white;
+}
+hr{
+    border-top: 3px solid black;
 }
 #topHeader {
     display: flex;
@@ -40,8 +44,8 @@ button{
     
 }
 #content{
-    width: 33%;
-    background-color: aqua;
+    width: 50%;
+
     margin: auto;
 }
 h1{
@@ -49,9 +53,74 @@ h1{
     font-size: 80px;
 }
 body{
-    background-color:red;
     text-align: center;
+    background-image: url("/assets/img/backgoundcolours.png");
+    
 }
 #sing{
-    background-color: blue;
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+#learn{
+    background-color:red;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+.separacion{
+    background-color: white;
+}
+img{
+    width: 5%;
+    height: 5%;
+}
+#content{
+
+}
+#contenedor{
+    background-color: blueviolet;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.bloque{
+    text-align: center;
+    justify-content: space-between;
+}
+#contenedor{
+    background-color: white;
+    margin-top: -5px;
+    text-align: center;
+
+}
+
+#contenedor li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    color: black;
+    justify-content: space-between;
+}
+#contenedor ul {
+}
+h2{
+    width: 33%;
+    margin: auto;
+}
+p{
+    width: 33%;
+    margin: auto;
+}
+h4{
+    margin-bottom: 10px;
+    color: aqua;
+    padding-top: 100px;
+    margin: auto;
 }
